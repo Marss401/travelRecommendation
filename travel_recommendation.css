@@ -1,0 +1,35 @@
+/* nav styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: #313131;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff; 
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.logo-icon {
+    font-size: 25px;
+    margin-right: 3px;
+}
+  
+.nav-links{
+    list-style-type: none;
+}
+.nav-links li{
+    display: inline;
+    margin-right: 10px;
+    background-color: #fff;
+    
+}
