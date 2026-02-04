@@ -2,15 +2,18 @@
 *{
     margin: 0;
     padding: 0;
+    outline: none;
+    text-decoration: none;
     box-sizing: border-box;
 }
 .navbar {
     background-color: #313131;
-    padding: 20px;
+    padding: 12px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: #ffffff; 
+    position: sticky;
 }
 .nav-logo{
     display: flex;
@@ -72,17 +75,51 @@
     background-color: rgb(1, 114, 113);
     color: #fcf8f8;
     margin-right: 10px;
+    cursor: pointer;
     border-radius: 5px;
 }
 .btn:hover{
     background-color: #e8e3e3;
     color: rgb(1, 114, 113);
 }
-/* body{
-    background-image: url("https://i.pinimg.com/736x/19/c9/4d/19c94d44302b8c99a140c404a7504bcc.jpg");
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.section{
+    height: 100vh;
+    background-image:
+      linear-gradient(
+        to right,
+        rgba(0, 110, 110, 0.85) 35%,   /* teal overlay */
+        rgba(0, 110, 110, 0.4) 55%,
+        rgba(0, 110, 110, 0) 75%
+      ),
+      url("https://cdn.pixabay.com/photo/2019/07/01/01/24/san-francisco-4309040_1280.jpg");   /* your background image */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+}
+.container{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+.hero_icons{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
-}*/
+}
