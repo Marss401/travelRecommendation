@@ -151,53 +151,90 @@ body{
     transition: transform 0.2s ease, opacity 0.2s ease;
   }
   .about_content{
-    margin: auto 150px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px;
   }
   .about_title{
     color: #fcf8f8;
   }
   .about_heading{
     font-weight: 600;
-    font-size: 80px;
+    font-size: clamp(42px, 6vw, 80px);
     margin-bottom: 40px;
     text-transform: uppercase;
   }
   .about_description{
     line-height: 1.5;
-    background-color: #313131b4;
+    background-color: #31313171;
     border: none;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     padding: 14px 24px;
     letter-spacing: 0.5px;
     border-radius: 6px;
   }
   .about_team{
     display: flex;
-    gap: 4rem;
+    gap: 2rem;
     align-items: center;
-    margin-left: 32px;
     margin-top: 40px;
-  }
-  .about_team_heading{
-    max-width: 240px;
   }
   .about_team_title{
     font-weight: 600;
     font-size: 60px;
     color: #fcf8f8;
     line-height: 1;
+    margin-left: 40px;
   }
   .about_members{
     display: flex;
-    gap: 1.5rem;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-width: 100%;
+    gap: 1rem;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 10px;
   }
   .about_member{
+    border-radius: 10px;
+  background: #31313171;
+  padding: 32px 24px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+   gap: 16px;
+  }
+  .about_icon{
+    background-color: rgba(3, 3, 116, 0.708);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    flex-shrink: 0; 
+    color: #fcf8f8;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .about_details{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .user_name{
+    font-weight: 600;
+    font-size: 20px;
+    color: #fcf8f8;
+  }
+  .user_description{
+    max-width: 150px;
+    color: #e8e3e3;
+    margin-bottom: 4px;
+  }
+  .user_role{
+    background-color: rgba(0, 0, 101, 0.764);
+    color: #e8e3e3;
+    border: 1px solid #e8e3e382;
     border-radius: 5px;
-  background: #313131ad;
-  padding: 2rem ;
-  position: relative;
-  overflow: hidden;
+    padding: 4px;
+    cursor: pointer;
   }
