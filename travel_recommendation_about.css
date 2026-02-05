@@ -150,3 +150,54 @@ body{
     cursor: pointer;
     transition: transform 0.2s ease, opacity 0.2s ease;
   }
+  .about_content{
+    margin: auto 150px;
+  }
+  .about_title{
+    color: #fcf8f8;
+  }
+  .about_heading{
+    font-weight: 600;
+    font-size: 80px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+  .about_description{
+    line-height: 1.5;
+    background-color: #313131b4;
+    border: none;
+    margin-bottom: 80px;
+    padding: 14px 24px;
+    letter-spacing: 0.5px;
+    border-radius: 6px;
+  }
+  .about_team{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    margin-left: 32px;
+    margin-top: 40px;
+  }
+  .about_team_heading{
+    max-width: 240px;
+  }
+  .about_team_title{
+    font-weight: 600;
+    font-size: 60px;
+    color: #fcf8f8;
+    line-height: 1;
+  }
+  .about_members{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  .about_member{
+    border-radius: 5px;
+  background: #313131ad;
+  padding: 2rem ;
+  position: relative;
+  overflow: hidden;
+  }
