@@ -152,7 +152,10 @@ body{
   }
   /* results styles */
   .results {
-  margin-top: 40px;
+  margin-top: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
   
 }
 .result_card {
