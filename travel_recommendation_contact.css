@@ -150,24 +150,17 @@ body{
     cursor: pointer;
     transition: transform 0.2s ease, opacity 0.2s ease;
   }
-  .contact_section{
-  position: relative;
-  }
   .contact_card{
-    position: absolute;
-    bottom: 0;
-    right: 0;
     display: flex;
-    justify-content: space-evenly;
-    gap: 80px;
+    justify-content: space-between;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    padding-left: 80px;
     align-items: center;
-    
   }
   .contact_head{
-    margin-bottom: 40px;
+    margin: 0 40px;
   }
   .contact_head h1 {
     font-size: 64px;
@@ -175,7 +168,6 @@ body{
     color: #ffffff;
     margin-bottom: 12px;
   }
-  
   .contact_head p {
     color: rgba(255, 255, 255, 0.85);
     font-size: 16px;
@@ -186,7 +178,7 @@ body{
     background: rgba(49, 49, 49, 0.55);
     border-radius: 12px;
     padding: 36px 24px;
-    margin-bottom: 24px;
+    margin-top: 40px;
   }
   .contact_form form {
     display: flex;

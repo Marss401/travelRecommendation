@@ -1,18 +1,18 @@
 const members = [
     {
-        id: "1",
+        id: 1,
         name: "John Doe",
         description: "John is responsible for...",
         role: "CEO"
     },
     {
-        id: "2",
+        id: 2,
         name: "Celina Thomas",
         description: "Celina is responsible for...",
         role: "Team Lead"
     },
     {
-        id: "3",
+        id: 3,
         name: "Mike Tyson",
         description: "Mike is responsible for...",
         role: "Delivery Head"
