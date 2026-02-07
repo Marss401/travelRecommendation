@@ -16,7 +16,7 @@ function searchResult(event){
         if(searchInput === "beach"){
             results = data.beaches;
         } else if(searchInput === "country"){
-            results = data.countries;
+            results = data.countries[0].cities;
         }else if (searchInput === "temple"){
             results = data.temples;
         }
@@ -36,9 +36,8 @@ function searchResult(event){
                         <button type="button" class="result_button">Visit</button>
                     </div>
                 </div>
-            `
-
-        });
+            ` });
+              
         console.log("Results:", results);
         
     })
